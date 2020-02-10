@@ -1,0 +1,149 @@
+body{
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.search_bar{
+    height: 30px;
+    width: 29vw;
+    background-color: purple;
+    position: absolute;
+    top: 30px;
+    left: 36vw;
+}
+
+.header{
+    width: 40vw;
+    position: absolute;
+    top: 70px;
+    left: 30vw;
+
+    display: grid;
+    grid-gap: 0;
+  
+    grid-template-areas:
+      "vid image"
+      "vid more";
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+}
+
+.promo_video{
+    height: 210px;
+    width: 31vw;
+    background-color:turquoise;
+    position: absolute;
+
+
+    grid-area: vid;
+}
+
+.promo_img{
+    height: 105px;
+    width: 30vw;
+    background-color: violet;
+
+    grid-area: image;
+}
+
+.learn_more{
+    height: 105px;
+    width: 30vw;
+    background-color: teal;
+
+    grid-area: more;
+}
+
+.sidebar{
+    display: grid;
+    grid-gap: 5px; 
+    grid-template-rows: 34px;
+
+    width: 10vw;
+    min-height: 1000px;
+    position: absolute;
+    top: 30px;
+    left: 40px;
+
+}
+
+.logo{
+    background-color: purple;
+}
+
+.tabs{
+    background-color: teal;
+}
+
+.sign_in{
+    background-color: violet;
+}
+
+.about{
+    background-color: violet;
+}
+
+.terms{
+    background-color: turquoise;
+}
+
+.content{
+    width: 77vw;
+    min-height: 80vw;
+    position: relative;
+    top: 330px;
+    left: 19vw;
+    padding: auto;
+}
+
+.genre_tab{
+    background-color: purple;
+    height: 30px;
+    width: 120px;
+    margin-left: 30px;
+}
+
+.genre_section{
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 50px 1fr 1fr;
+    grid-gap: 20px;
+    display: grid;
+    margin: 30px;
+
+    grid-template-areas: 
+    "title"
+    "pic"
+    "info";
+}
+
+.thumbnails{
+    height: 130px;
+    background-color: violet;
+}
+
+.vid_info{
+    height: 40px;
+    background-color: teal;
+}
+
+.advertisements{
+
+    padding: 0px 0px 100px 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.ad_description{
+    background-color: teal;
+    height: 150px;
+    width: 100px;
+}
+
+.watch_ad{
+    background-color: violet;
+    height: 90px;
+    width: 360px;
+    margin-top: 60px;
+}

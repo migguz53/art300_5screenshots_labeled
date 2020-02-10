@@ -1,0 +1,129 @@
+body{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.banner{
+    height: 30px;
+    margin-top: 30px;
+    background-color: lightskyblue;
+}
+
+.create_post{
+    height: 20px;
+    width: 70vw;
+    margin: 20px 50px 20px 30px;
+    background-color: purple;
+}
+
+.sidebar{
+    display: grid;
+    grid-gap: 10px;
+  
+    grid-template-areas:
+      "one"
+      "two"
+      "three"
+      "four"
+      "five"
+      "six"
+      "seven";
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  
+    width: 15vw;
+    min-height: 1100px;
+    margin: auto;
+    padding: 10px;
+
+    position: absolute;
+    top: 70px;
+    right: 40px;
+}
+
+.upcoming_community{
+    background-color: hotpink;
+    grid-area: one;
+}
+
+.big_ad{
+    background-color: purple;
+    grid-area: two;
+}
+
+.premium{
+    background-color: lightskyblue;
+    grid-area: three;
+}
+
+.trending{
+    background-color: green;
+    grid-area: four;
+}
+
+.home{
+    background-color: yellow;
+    grid-area: five;
+}
+
+.big_ad_two{
+    background-color: lightskyblue;
+    grid-area: six;
+}
+
+.about{
+    background-color: hotpink;
+    grid-area: seven;
+}
+
+.content{
+    width: 79vw;
+    height: 80vw;
+    position: relative;
+    top: 80px;
+    left: 40px;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding: auto;
+}
+
+.posts{
+    display: grid;
+    grid-gap: 10px; 
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 10px;
+    margin: 40px;
+}
+
+.thumbnail{
+    height: 40px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    background-color: violet;
+    margin-bottom: 5px;
+
+}
+
+.description{
+    height: 40px;
+    grid-column-start: 2;
+    grid-column-end: 19;
+    background-color: teal;
+    margin-bottom: 5px;
+}
+
+.ads{
+        display: grid;
+    grid-gap: 10px; 
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 10px;
+    margin: 40px;
+}
