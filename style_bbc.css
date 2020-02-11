@@ -134,10 +134,10 @@ body{
     grid-template-rows: 1fr 1fr 1fr;
 
     width: 270px;
-    height: 270px;
+    height: 230px;
     position: absolute;
     top: 600px;
-    right: 180px;
+    left: 1450px;
 }
 
 .subtext1{
